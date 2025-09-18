@@ -69,7 +69,7 @@ wp-content/uploads/pa-empty-attributes.csv
 Open `pa-empty-attributes.csv` in a spreadsheet (Excel, Google Sheets, LibreOffice).  
 It will include columns such as:  
 ```
-term_id,taxonomy,term_name,slug,current_description,product_count,sample_product_ids,sample_product_titles,product_excerpt
+term_id,taxonomy,term_name,slug,current_description,product_count,sample_product_ids,sample_product_titles,generated_description
 ```
 
 ---
@@ -94,7 +94,7 @@ term_id,taxonomy,generated_description
 You are writing product-attribute descriptions for an ecommerce site.
 
 Attached CSV: pa-empty-attributes.csv
-Context columns: term_id, taxonomy, term_name, slug, sample_product_titles, product_excerpt
+Context columns: term_id, taxonomy, term_name, slug, sample_product_titles, generated_description
 Tone: helpful, factual, consumer-facing (80–140 words)
 
 Task:
